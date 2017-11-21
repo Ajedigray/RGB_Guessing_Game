@@ -1,5 +1,6 @@
 body {
 	background-color: #232323;
+	margin: 0;
 }
 
 .square {
@@ -8,14 +9,48 @@ body {
 	background: red;
 	float: left;
 	margin: 1.66%;
+	border-radius: 20%;
 }
 
 .container {
+	padding-top: 20px;
 	max-width: 600px;
 	margin: 0 auto;
 }
 
+/*header {
+	color: white;
+	text-align: center;
+}*/
+
 h1 {
 	color: white;
 	text-align: center;
+	background: #42aaf4;
+	height: 100px;
+	margin-top: 0;
+	line-height: 100%;
+	font-size: 40px;
+	margin-bottom: 0;
+}
+
+span {
+	text-align: center;
+}
+#colorDisplay {
+	text-transform: uppercase;
+}
+
+#bar {
+	background: white;
+	text-align: center;
+	height: 30px;
+}
+
+button {
+	line-height: 100%;
+}
+
+.selected {
+	background: blue;
 }
