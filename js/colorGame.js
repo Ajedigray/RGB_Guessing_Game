@@ -10,6 +10,7 @@ var reset = document.querySelector("#reset");
 var easyBtn = document.querySelector("#easyBtn");
 var hardBtn = document.querySelector("#hardBtn");
 colorDisplay.textContent = pickedColor;
+hardBtn.classList.add("selected");
 
 easyBtn.addEventListener("click", function (){
 	//highlight easyBtn
@@ -17,7 +18,8 @@ easyBtn.addEventListener("click", function (){
 	//generate 3 colors
 	//pick random color
 	//assign 3 colors to the first 3 squares
-	h1.style.backgroundColor = "#42aaf4";
+	messageDisplay.textContent = "";
+	h1.style.backgroundColor = "steelblue";
 	easyBtn.classList.add("selected");
 	hardBtn.classList.remove("selected");
 	numSquares = 3;
@@ -39,7 +41,8 @@ hardBtn.addEventListener("click", function (){
 	//generate 3 colors
 	//pick random color
 	//assign 3 colors to the first 3 squares
-	h1.style.backgroundColor = "#42aaf4";
+	messageDisplay.textContent = "";
+	h1.style.backgroundColor = "steelblue";
 	hardBtn.classList.add("selected");
 	easyBtn.classList.remove("selected");
 	numSquares = 6;
@@ -54,8 +57,9 @@ hardBtn.addEventListener("click", function (){
 
 
 reset.addEventListener("click", function(){
+	messageDisplay.textContent = "";
 	reset.textContent = "New Colors";
-	h1.style.backgroundColor = "#42aaf4";
+	h1.style.backgroundColor = "steelblue";
 	//generate a new list of random colors
 	colors = generateRandomColors(numSquares);
 	//pick a new pickedColor
@@ -84,7 +88,6 @@ for (var i = 0; i < squares.length; i++){
 			changeColors(clickedColor);
 			h1.style.backgroundColor = clickedColor;
 			reset.textContent = "Play Again?";
-
 		}else{
 			this.style.backgroundColor = "#232323";
 			messageDisplay.textContent = "Try Again!";
