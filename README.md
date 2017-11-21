@@ -1,0 +1,30 @@
+# RGB_Guessing_Game
+
+Introduction
+
+    Udemy - Colt Steele: The Web Developer Course
+    I used the JavaScript and CSS skills I learned from Colt Steele's web developer course on udemy.com to create this application
+    This application is a guessing game in which the user is given a specific color and has to guess what the color is by choosing from  the given squares
+    There are two difficulties: Easy and Hard
+    This application requires an internet browser such as: Google Chrome or Safari
+
+Content
+
+    colorGame.html - website markup
+    css/colorGame.css - website styling
+    js/colorGame.css - website behavior
+    README - Documentation for project
+
+Operating Instructions
+
+    Pull RGB_Guessing_Game repository from my gitHub account
+    Using Terminal: run
+    open -a "Google Chrome" colorGame.html
+
+    The page will load the game
+    Click on one square at a time to guess
+    Click "More Colors" to reset the game
+    Click  "Play Again" to start a new game
+    Toggle Between "Easy" and "Hard" to set game difficulty
+
+
