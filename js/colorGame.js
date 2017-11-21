@@ -20,7 +20,8 @@ easyBtn.addEventListener("click", function (){
 	//assign 3 colors to the first 3 squares
 	messageDisplay.textContent = "";
 	h1.style.backgroundColor = "steelblue";
-	easyBtn.classList.add("selected");
+	reset.textContent = "New Colors";
+	this.classList.add("selected");
 	hardBtn.classList.remove("selected");
 	numSquares = 3;
 	colors = generateRandomColors(numSquares);
@@ -43,7 +44,8 @@ hardBtn.addEventListener("click", function (){
 	//assign 3 colors to the first 3 squares
 	messageDisplay.textContent = "";
 	h1.style.backgroundColor = "steelblue";
-	hardBtn.classList.add("selected");
+	reset.textContent = "New Colors";
+	this.classList.add("selected");
 	easyBtn.classList.remove("selected");
 	numSquares = 6;
 	colors = generateRandomColors(numSquares);
@@ -58,7 +60,7 @@ hardBtn.addEventListener("click", function (){
 
 reset.addEventListener("click", function(){
 	messageDisplay.textContent = "";
-	reset.textContent = "New Colors";
+	this.textContent = "New Colors";
 	h1.style.backgroundColor = "steelblue";
 	//generate a new list of random colors
 	colors = generateRandomColors(numSquares);
