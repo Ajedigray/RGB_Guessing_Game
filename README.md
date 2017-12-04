@@ -11,10 +11,10 @@ This application requires an internet browser such as: Google Chrome or Safari.
 
 ## Content
 
-`colorGame.html` - website markup
-`css/colorGame.css` - website styling
-`js/colorGame.css` - website behavior
-`README.md` - Documentation for project
+1. `colorGame.html` - website markup
+2. `css/colorGame.css` - website styling
+3. `js/colorGame.css` - website behavior
+4. `README.md` - Documentation for project
 
 ## Operating Instructions
 
