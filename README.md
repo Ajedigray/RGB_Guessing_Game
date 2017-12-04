@@ -3,10 +3,11 @@
 ## Introduction
 
 Udemy - Colt Steele: The Web Developer Course
-I used the JavaScript and CSS skills I learned from Colt Steele's web developer course on udemy.com to create this application
-This application is a guessing game in which the user is given a specific color and has to guess what the color is by choosing from  the given squares
-There are two difficulties: Easy and Hard
-This application requires an internet browser such as: Google Chrome or Safari
+
+I used the JavaScript and CSS skills I learned from Colt Steele's web developer course on udemy.com to create this application.
+This application is a guessing game in which the user is given a specific color and has to guess what the color is by choosing from  the given squares.
+There are two difficulties: Easy and Hard.
+This application requires an internet browser such as: Google Chrome or Safari.
 
 ## Content
 
