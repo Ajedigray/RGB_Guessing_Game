@@ -1,6 +1,6 @@
 # RGB_Guessing_Game
 
-##Introduction
+## Introduction
 
 Udemy - Colt Steele: The Web Developer Course
 I used the JavaScript and CSS skills I learned from Colt Steele's web developer course on udemy.com to create this application
@@ -8,14 +8,14 @@ This application is a guessing game in which the user is given a specific color 
 There are two difficulties: Easy and Hard
 This application requires an internet browser such as: Google Chrome or Safari
 
-##Content
+## Content
 
 `colorGame.html` - website markup
 `css/colorGame.css` - website styling
 `js/colorGame.css` - website behavior
 `README.md` - Documentation for project
 
-##Operating Instructions
+## Operating Instructions
 
 Pull RGB_Guessing_Game repository from my gitHub account
 Using Terminal: run `open -a "Google Chrome" colorGame.html`
