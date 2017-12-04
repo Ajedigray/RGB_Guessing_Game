@@ -21,10 +21,10 @@ This application requires an internet browser such as: Google Chrome or Safari.
 Pull RGB_Guessing_Game repository from my gitHub account
 Using Terminal: run `open -a "Google Chrome" colorGame.html`
 
-The page will load the game
-Click on one square at a time to guess
-Click "More Colors" to reset the game
-Click  "Play Again" to start a new game
-Toggle Between "Easy" and "Hard" to set game difficulty
+1. The page will load the game
+2. Click on one square at a time to guess
+3. Click "More Colors" to reset the game
+4. Click  "Play Again" to start a new game
+5. Toggle Between "Easy" and "Hard" to set game difficulty
 
 
