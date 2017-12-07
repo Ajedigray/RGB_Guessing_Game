@@ -12,6 +12,7 @@ body {
 	margin: 1.66%;
 	border-radius: 20%;
 	transition: background 1s;
+	cursor: pointer;
 }
 
 .container {

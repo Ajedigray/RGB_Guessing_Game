@@ -45,9 +45,13 @@ function setupSquares(){
 				changeColors(clickedColor);
 				h1.style.backgroundColor = clickedColor;
 				resetBtn.textContent = "Play Again?";
+				for (var i = 0; i < squares.length; i++){
+					squares[i].style.cursor = "default";
+				}
 			}else{
 				this.style.backgroundColor = "#232323";
 				messageDisplay.textContent = "Try Again!";
+				this.style.cursor = "default";
 			}
 		});
 	}
@@ -70,6 +74,7 @@ function reset(){
 		if(colors[i]){
 			squares[i].style.backgroundColor = colors[i];
 			squares[i].style.display = "block";
+			squares[i].style.cursor = "pointer";
 		}else{
 			squares[i].style.display = "none";
 		}
